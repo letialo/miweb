@@ -1,0 +1,87 @@
+<html>
+    <head> 
+        <!-- título que aparece en la pestaña de la página  -->
+        <title>Ejercicio 1</title>
+
+        <!-- icono que aparece en la pestaña de la página, junto al título. Pueden venir con extensión.jpg .png... pero los propios son los que aparecen como .ico  -->
+        <link rel="icon" href="img/icono.png" type="image/x-icon" />
+
+    </head>
+
+    <body>
+        
+        
+        <h1>Enlaces</h1>
+            <!--Introducir enlaces-->
+            <!--(target="_blank") sirve para que el enlace salga en una nueva ventana-->
+            <!--(si aprieto Z, salto de párrafo en el script-->
+            <a href="https://correoweb.educa.madrid.org/?_task=mail&_mbox=INBOX" target="_blank">Visita la web del curso pinchando aquí!</a>
+
+       
+            <!--  Enlace a otro hatml que está en mi carpeta local-->
+            <p><a href="prueba.html">Ve a prueba</a></p>
+        
+
+
+        <h1>Imágenes</h1>
+            <!--Imagen local-->
+            <img src="img/arbol.jpg" alt="Descripción de la imagen 1">
+
+            <!--Imagen remota-->
+            <p> <img src="https://casasinhaus.com/wp-content/uploads/2024/01/casa-en-l-en-madrid-fachada-2-1536x864.jpg" alt="Descripción de la imagen 2"> </p>
+
+            <!--Imagen tamaño específico. mantiene la realción de aspecto, así que pone el lado más grande en el tamaño que he espacidficado-->
+            <p><img src="img/arbol.jpg" alt="Descripción de la imagen 1" width="50" height = "50">  </p>
+
+
+        <h1>Espacios entre párrafos</h1>
+            <!--   <br> = ENTER y <hr> = inserta una linea horizontal   -->
+            <p> Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. <br> Ahora salto de línea. Ahora salto de línea. Ahora salto de línea. Ahora salto de línea. Ahora salto de línea. Ahora salto de línea. Ahora salto de línea.Ahora salto de línea.</p>
+            <hr>
+            <p> Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. Acabo de insertar una línea negra. </p>
+
+        <h1>Listas</h1>
+            <!--   <ul> = lista sin orden y <ol> = lista ordenada  <li> =elemento de una lista ordenada -->
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            
+            </ul>
+            <ol>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+                <li>Elemento 6</li>
+            
+            </ol>
+        
+        <h1>W3schools</h1>
+            <!--Biblia de html-->
+            <a href="https://www.W3schools.com" target="_blank"> La biblia de html</a>
+
+        <h1>Etiquetas de estructuracios</h1>
+            <!--  div: Uso divisiores para hacer secciones que luego puedo editar en conjunto -->
+            <!--  section: realiza divisiones, generalmente con título -->
+            <!--  otras etiquetas: article(artículo), aside (barra lateral) nav (navegación)-->
+            <!--  otras etiquetas: header (encabezado), footer (barpie de página-->
+            <p> Actualmne se utilizan la etiqueta div </p>
+
+
+        <h1>formularios en HTML</h1>
+        <form action="/submit" method="post">
+        <!--  aquí van los elementos del formulario -->
+        <!--  etiqueta input: utilizada para doferentes tipos de datos -->
+        <!--  Atributos:
+          type: especifica el tipo de entrada (text, password, email, checkbox, radio, ect). 
+          name: nombre del campo para identificar los datos del servidor. 
+          placeholder: texto de sujerencias dentro del campo. 
+          value: valor predeterminado del campo -->
+        <!--  etiqueta textarea: para entradas de textos lagas. atributos rows ty columns -->
+        <!--  etiqueta button: para crear botones de envio. atributos type (tipo de botón) -->
+          <!--  etiqueta selec y optionn: para crear botones de envio. atributos type (tipo de botón) -->
+        </form>
+
+
+    </body>
+
+</html>
